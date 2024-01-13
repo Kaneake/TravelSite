@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Verdana;
+    align-items: center;
+}
+
+nav{
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.nav-left__logo{
+    color:#335576;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-right__home--underlined, .nav-right__hawaii--underlined,.nav-right__iceland--underlined,.nav-right__greece--underlined{
+    text-decoration: underline #DB7A4E 2px;
+    text-underline-offset: 13px;
+}
+
+.nav-left{
+    width: fit-content;
+    left: 0;
+}
+
+.nav-right{
+    width: fit-content;
+    position: inherit;
+    right: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+
+.nav-right__home--underlined, .nav-right__hawaii--underlined,.nav-right__iceland--underlined,.nav-right__greece--underlined,.nav-right__home,.nav-right__hawaii, .nav-right__iceland, .nav-right__greece{
+   margin-left: 20px;
+   margin-right: 20px;
+   text-decoration: none;
+}
+
+footer{
+    background-color: #FEFAF5;
+    color: #335576;
+    padding: 20px 80px;
+    font-size:large;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer__subtitle {
+    color: #DB7A4E;
+    font-size:xx-small;
+}
+
+footer p{
+    font-size: small;
+}
+
+footer img{
+    max-height: 30px;
+    width: auto;
+}
+
+.footer__hours-row{
+    display: flex;
+}
+
+.footer__hours-item{
+    margin-right: 50px;
+}
+
+.footer__social-icon{
+    padding: 5px 5px;
+}
